@@ -47,7 +47,7 @@ jobs:
           branch: ${{ matrix.branch }}
           scope: ${{ matrix.scope }}
           version: "21.3.7"
-          kernel: linux608
+          kernel: linux60
           code-name: "Ornara"
           # providing a release-tag allows for github releases
           release-tag: ${{ needs.prepare-release.outputs.release_tag }}
